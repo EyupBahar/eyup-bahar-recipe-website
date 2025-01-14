@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+  <head>
+    <meta charset="utf-8" />
+    <title>Recipe Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link href="/components/header.html" rel="import" />
+  </head>
+  <body>
+    <div class="index-page">
+    <header class="navbarHeader">
+      <nav>
+        <img id="logo" src="/media/logo2.avif" alt="logo" />
+        <ul id="navigationList">
+          <li><a class="nav-link" href="/index.html">Home</a></li>
+          <li><a class="nav-link" href="/recepies/appetizers/appetizers.html">Appetizers</a></li>
+          <li>
+            <a class="nav-link" href="/recepies/main-course/main-course.html">Main Courses</a>
+          </li>
+          <li><a class="nav-link" href="/recepies/desserts/desserts.html">Desserts</a></li>
+          <li><a class="nav-link" href="/contacts/contacts.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="container">
+      <header id="Home-page-header">
+        <div class="welcome-text">Hello</div>
+        <div class="welcome-text">
+          <span>Welcome to my Reciepe App</span>
+        </div>
+      </header>
+      <div id="videoContainer">
+        <figure data-fullscreen="false">
+          <video id="video" controls preload="metadata" poster="img/poster.jpg">
+            <source src="/media/turkish-kitchen.mp4" />
+            <object
+              type="application/x-shockwave-flash"
+              data="flash-player.swf?videoUrl=http://iandevlin.github.io/mdn/video-player/video/tears-of-steel-battle-clip-medium.mp4"
+              width="1024"
+              height="576"
+            >
+              <param
+                name="movie"
+                value="flash-player.swf?videoUrl=http://iandevlin.github.io/mdn/video-player/video/tears-of-steel-battle-clip-medium.mp4"
+              />
+              <param name="allowfullscreen" value="true" />
+              <param name="wmode" value="transparent" />
+              <param
+                name="flashvars"
+                value="controlbar=over&amp;image=img/poster.jpg&amp;file=flash-player.swf?http://iandevlin.github.io/mdn/video-player/videoUrl=video/tears-of-steel-battle-clip-medium.mp4"
+              />
+              <img
+                alt="Tears of Steel poster image"
+                src="img/poster.jpg"
+                width="1024"
+                height="428"
+                title="No video playback possible, please download the video from the link below"
+              />
+            </object>
+            <a
+              href="http://iandevlin.github.io/mdn/video-player/video/tears-of-steel-battle-clip-medium.mp4"
+              >Download MP4</a
+            >
+          </video>
+        </figure>
+      </div>
+      <div id="foodContainer"></div>
+    </section>
+    <footer style="color: white;">
+      <p>&copy; 2025 Recipe Website</p>
+    </footer>
+  </div>
+  </body>
+</html>
