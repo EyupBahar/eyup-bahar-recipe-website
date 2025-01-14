@@ -98,7 +98,7 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	background-image: url("/media/reciepe-background.jpg");
+	background-image: url("/medias/reciepe-background.jpg");
 	background-size: cover;
 	background-position: center center;
 	height: 90vh;
@@ -264,7 +264,7 @@ figure[data-fullscreen=true] .controls .progress {
 /* Appetizers CSS */
 
 #contact-container {
-	background-image: url("/media/contact-us.png");
+	background-image: url("/medias/contact-us.png");
 	position: relative;
 	background-size:cover;
 	background-repeat: no-repeat;
